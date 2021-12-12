@@ -1,0 +1,32 @@
+.body{
+    background-color:pink;
+    margin: 0;
+
+}
+.header{
+    background-color:lightpink;
+    display: grid;
+    grid-row-end: auto;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 0.75fr;
+
+
+}
+.header div{
+    text-align: right;
+    align-self: center;
+}
+.flex{
+    position: relative;
+    text-align: center;
+margin-right: 50px;
+
+top: 5px;
+float: right;
+
+}
+.footer{
+      
+    margin-top: 190px;
+}
+
+
